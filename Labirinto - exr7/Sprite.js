@@ -1,13 +1,14 @@
 function Sprite(){
   this.x = 0;
   this.y = 0;
+  this.gx = -1;
+  this.gy = -1;
   this.vx = 0;
   this.vy = 0;
   this.SIZE = 16;
   this.pose = 0;
   this.frame = 0;
   this.comida = 100;
-  this.pisouMina = false;
   this.poses = [
     {row: 11, col:1, frames:8, v: 4},
     {row: 10, col:1, frames:8, v: 4},
